@@ -1,0 +1,12 @@
+INPUT 5 X2 X1 Y2 Y1 Cin
+OUTPUT 3 Cout Z2 Z1
+XOR X1 Y1 a
+XOR Cin a Z1
+AND X1 Y1 b
+AND Cin a c
+OR b c d
+XOR X2 Y2 e
+XOR e d Z2
+AND e d f
+AND X2 Y2 g
+OR g f Cout

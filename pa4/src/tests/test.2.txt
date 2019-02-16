@@ -1,0 +1,11 @@
+INPUT 3 a b c
+OUTPUT 1 z
+NAND b b i
+NAND c c j
+NAND i j k
+NAND k k x
+NAND a c l
+NAND l l y
+NAND x x m
+NAND y y n
+NAND m n z
